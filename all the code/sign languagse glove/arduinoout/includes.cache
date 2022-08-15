@@ -1,0 +1,107 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\variants\\esp32s2"
+  },
+  {
+    "Sourcefile": "c:\\Users\\dylch\\Desktop\\coden\\Project S.L.O.S\\all the code\\sign languagse glove\\arduinoout\\sketch\\The_ALS_Glove_starter_code.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\dylch\\Desktop\\coden\\Project S.L.O.S\\all the code\\sign languagse glove\\arduinoout\\sketch\\The_ALS_Glove_starter_code.ino.cpp",
+    "Include": "flexsensor.h",
+    "Includepath": "C:\\Users\\dylch\\Documents\\Arduino\\libraries\\flexsensor-lib"
+  },
+  {
+    "Sourcefile": "c:\\Users\\dylch\\Desktop\\coden\\Project S.L.O.S\\all the code\\sign languagse glove\\arduinoout\\sketch\\The_ALS_Glove_starter_code.ino.cpp",
+    "Include": "MPU9250.h",
+    "Includepath": "C:\\Users\\dylch\\Documents\\Arduino\\libraries\\MPU9250-master"
+  },
+  {
+    "Sourcefile": "c:\\Users\\dylch\\Desktop\\coden\\Project S.L.O.S\\all the code\\sign languagse glove\\arduinoout\\sketch\\The_ALS_Glove_starter_code.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\dylch\\Desktop\\coden\\Project S.L.O.S\\all the code\\sign languagse glove\\arduinoout\\sketch\\The_ALS_Glove_starter_code.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\dylch\\Documents\\Arduino\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\dylch\\Desktop\\coden\\Project S.L.O.S\\all the code\\sign languagse glove\\arduinoout\\sketch\\The_ALS_Glove_starter_code.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\Arduino\\libraries\\flexsensor-lib\\flexsensor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\Arduino\\libraries\\MPU9250-master\\MPU9250.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\arduino\\hardware\\espressif\\esp32\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\dylch\\Documents\\Arduino\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

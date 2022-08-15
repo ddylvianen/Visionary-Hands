@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>S.L.O.S</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	 <script type = "text/javascript">
+  
+        const ws = new WebSocket("ws://192.168.4.1:81");
+		 //var url = "ws://192.168.4.1:81";
+		 //var url = "ws://192.168.4.1:81";
+ 
+        ws.onopen = function() {
+            alert("Connection opened");
+        };
+ 
+        ws.onclose = function() {
+            alert("Connection closed");
+        };
+        
+        ws.onmessage = function(event) {
+ 
+            const a = document.createElement('a');
+            a.textContent = event.data;
+            document.body.appendChild(a);
+			//document.getElementById("a").innerHTML =obj.a;
+ 
+        };
+      </script>
+  
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-secondary d-none d-lg-block">
+                <a href="" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 display-3 text-primary">S.L.O.S</h1>
+                </a>
+            </div>
+            <div class="col-lg-9">
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5">
+        <div class="container py-5">
+            <div class="row align-items-center py-4">
+                <div class="col-md-6 text-center text-md-left">
+                    <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">S.L.O.S</h1>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                        <div class="d-inline-flex align-items-center">
+                        <a class="btn btn-sm btn-outline-light" href="">Text to speech</a>
+                        <i class="fas fa-angle-double-right text-light mx-2"></i>
+                        <a class="btn btn-sm btn-outline-light " href="">Calabrate</a>
+					<!--<p><button id="button" class="button">Text to speech</button></p>
+                        <p><button id="button" class="button">calabrate</button></p>-->
+					
+                    </div>
+					<div id="a">Hello World</div>
+                </div>
+					
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-semi-bold text-primary mb-4">Get In Touch</h4>
+                <p><i class="fa fa-map-marker-alt text-primary mr-2"></i>Paramaribo Suriname</p>
+                <p><i class="fa fa-phone-alt text-primary mr-2"></i>5978819082</p>
+                <p><i class="fa fa-envelope text-primary mr-2"></i> dylchelvia@gmail.com</p>
+			  <p><i class="fa fa-envelope text-primary mr-2"></i> leshleyburleson@gmail.com</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Template Javascript -->
+    <!--<script src="js/main.js"></script>-->
+</body>
+
+</html>

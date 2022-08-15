@@ -1,0 +1,74 @@
+.header
+{
+    background-color: rgb(20, 20, 128);
+}
+body 
+{ 
+    color: #f1f1f1;
+    background-color: rgb(24, 9, 54);  
+}
+
+h1
+{
+
+    color: teal;
+    font-family: space 'Courier New', Courier, monospace;
+}
+h3
+{
+    color: #005477;
+    font-family: space 'Courier New', Courier, monospace;
+}
+.letter
+{
+    color: black;
+    position: fixed;
+    font-size: x-large;
+    text-align:
+    top: 20cm;
+    font-family: space 'Courier New', Courier, monospace;
+}
+.speech 
+{
+    color: teal;
+    position: relative;
+    font-family: space 'Courier New', Courier, monospace;
+}
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .footer {  
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 95%;  
+    background-color: rgb(37, 102, 181);  
+    color: rgb(0, 0, 0);  
+    text-align: center;  
+    }
+contacts
+{
+font-size: 2cm;
+}
