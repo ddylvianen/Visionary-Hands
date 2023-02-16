@@ -1,5 +1,4 @@
 #include "flexx.h"
-#include "vibrator.h"
 //#include IMU // include IMU code as part of the glove for determining motion & pose
 #include "ESPAsyncWebServer.h"
 //#include <Arduino_JSON.h>
@@ -181,18 +180,6 @@ void wait(int i) {
   }
 }
 
-bool loop__sound() {
-  long mil1 = millis() + 3000;
-
-  while (millis() < mil1) {
-    webSocket.loop();
-    leftGlove.update();
-    float sound = vi.loop_sound();
-    if (sound > 3000) {
-      return true;
-    }
-  }
-}
 
 int sendJson(String datab) {
   webSocket.broadcastTXT(datab);
